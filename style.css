@@ -1,0 +1,54 @@
+#ga-data-notification {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 360px;
+    max-height: 500px;
+    overflow: auto;
+
+    z-index: 999999;
+
+    background: #1e1e1e;
+    color: #ffffff;
+
+    border-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+
+    font-family: Arial, sans-serif;
+}
+
+#ga-data-notification .ga-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 16px;
+
+    background: #333;
+    border-bottom: 1px solid #444;
+
+    font-weight: bold;
+}
+
+#ga-data-notification .ga-content {
+    padding: 16px;
+}
+
+#ga-data-notification pre {
+    white-space: pre-wrap;
+    word-break: break-word;
+
+    margin: 0;
+
+    color: #7CFC00;
+    font-size: 14px;
+}
+
+#ga-data-notification button {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+

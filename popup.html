@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 260px;
+            padding: 12px;
+            background: #1e1e1e;
+            color: white;
+            font-family: Arial;
+            transition:
+                background 0.2s ease,
+                color 0.2s ease;
+
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 12px;
+            border: none;
+            border-radius: 6px;
+            background: #4CAF50;
+            color: white;
+            cursor: pointer;
+            transition:
+                background 0.2s ease;
+
+        }
+
+        button:hover {
+
+            background: #45a049;
+        }
+
+
+        label {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 12px;
+            gap: 10px;
+        }
+
+        select,
+        input[type="color"] {
+
+            width: 120px;
+        }
+
+        .hide{
+            display: none;    
+        }
+
+
+        .info {
+            margin-top: 12px;
+            font-size: 12px;
+            color: #bbb;
+            opacity: 0.8;
+        }
+    </style>
+</head>
+
+<body id="popupBody">
+
+    <button id="runBtn">
+        Toggle Extractor On Current Page
+    </button>
+
+    <label>
+        <input type="checkbox" id="draggableToggle">
+        Enable Persistent Dragging
+    </label>
+
+    <label>
+        Theme
+        <select id="themeSelect">
+
+            <option value="dark">
+                Dark Mode
+            </option>
+
+            <option value="light">
+                Light Mode
+            </option>
+
+            <option value="soft">
+                Soft Colors
+            </option>
+
+            <option class="hide" value="custom">
+                Custom
+            </option> 
+
+        </select>
+    </label>
+
+
+    <!-- Debug Only -->
+    <label class="hide">
+        Background
+        <input type="color"
+               id="bgColor">
+    </label>
+
+    <!-- Debug Only -->
+    <label class="hide">
+        Text Color
+        <input type="color"
+               id="textColor">
+    </label> 
+
+
+
+
+
+    <div class="info">
+        Default Shortcut:
+        Ctrl + Shift + F
+    </div>
+
+
+    <div class="info">
+        Extracts gaData.content.
+    </div>
+
+    <script src="popup.js"></script>
+</body>
+</html>
+
