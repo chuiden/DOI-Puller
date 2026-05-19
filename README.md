@@ -38,8 +38,7 @@
 </svg>
 
 </h1>
-A simple Firefox extension that pulls DOI numbers and metadata from academic journal websites (JSTOR). Pulls from the page source for conveniently copying undisplayed DOI numbers from certain articles. 
-
+A simple Firefox extension that pulls DOI numbers and metadata from academic journal websites ([JSTOR](https://www.jstor.org/)). Pulls from the page source for conveniently copying undisplayed DOI numbers from certain articles. 
 
 # About
 This extension has been tested on Firefox and JSTOR only as of May 2026. This extension only extracts the GA Data content from JSTOR page with DOI number and additional metadata. May work on other websites that store DOI in gaData.content objects.
