@@ -11,9 +11,7 @@
     
 
     if (existing) {
-
         existing.remove();
-
         return;
     }
 
@@ -24,11 +22,8 @@
         await browser.storage.local.get([
 
             "draggableEnabled",
-
             "theme",
-
             "customBg",
-
             "customText"
         ]);
 
@@ -320,7 +315,7 @@ function observeChanges() {
         new MutationObserver(() => {
 
             console.log(
-                "DOM changed"
+                "[DOI Puller] DOM changed"
             );
 
         });

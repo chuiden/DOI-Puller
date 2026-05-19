@@ -1,6 +1,6 @@
 browser.commands.onCommand.addListener(async (command) => {
 
-    console.log("Command fired:", command);
+    console.log("[DOI Puller] Command fired:", command);
 
     if (command !== "toggle-extractor") {
         return;
@@ -14,7 +14,7 @@ browser.commands.onCommand.addListener(async (command) => {
         });
 
         if (!tab?.id) {
-            console.warn("No active tab found");
+            console.warn("[DOI Puller] No active tab found");
             return;
         }
 
@@ -24,7 +24,7 @@ browser.commands.onCommand.addListener(async (command) => {
         });
 
     } catch (err) {
-        console.error("Shortcut execution failed:", err);
+        console.error("[DOI Puller] Shortcut execution failed:", err);
     }
 });
 

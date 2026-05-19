@@ -1,10 +1,18 @@
 {
   "manifest_version": 3,
-
   "name": "DOI Puller",
   "version": "1.0",
 
   "description": "Extracts gaData.content and DOI numbers from JSTOR pages.",
+
+  "browser_specific_settings": {
+    "gecko": {
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  },
+
 
   "permissions": [
     "activeTab",
@@ -35,7 +43,7 @@
       "suggested_key": {
         "default": "Ctrl+Shift+F"
       },
-      "description": "Toggle GA Extractor"
+      "description": "Toggle GA/DOI Extractor"
     }
   },
 
