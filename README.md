@@ -12,8 +12,8 @@ This extension has been tested on Firefox and JSTOR only as of May 2026. Extract
 * **Enable Persistent Dragging**: When disabled, stays fixed on the top right of the screen. When enabled, enables dragging and moving with the window scroll
 * **Theme**: Light, Dark, and Soft Colors
 
-# Popup Display
-The popup window appears and closes when the Toggle Extractor on Current Page is pressed.  
+# Content Display
+The display window appears and closes when the Toggle Extractor on Current Page is pressed. Default shortcut is Cntrl+Shift+F.  
 
 <img width="951" height="1342" alt="popup_2" src="https://github.com/user-attachments/assets/d47ce2c6-21a8-4cf8-995d-d0aa980ba5a9" />
 
