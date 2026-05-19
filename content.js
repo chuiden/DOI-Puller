@@ -8,6 +8,8 @@
             "ga-shadow-host"
         );
 
+    
+
     if (existing) {
 
         existing.remove();
@@ -133,7 +135,7 @@ function createPopup(data, settings) {
         document.createElement("span");
 
     title.textContent =
-        "GA Data Extractor";
+        "DOI Puller";
 
     const closeBtn =
         document.createElement("button");
