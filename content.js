@@ -515,7 +515,7 @@ function getStyles() {
 
             margin-bottom: 10px;
 
-            color: #7CFC00;
+            color: #D4AA00;
         }
 
         pre {
@@ -544,6 +544,8 @@ function getStyles() {
             font-size: 18px;
 
             cursor: pointer;
+
+            font-weight: bold;
         }
 
         .ga-copy-btn {
@@ -552,7 +554,7 @@ function getStyles() {
 
             padding: 8px 12px;
 
-            background: #4CAF50;
+            background: #D4AA00;
 
             border-radius: 6px;
 
@@ -563,7 +565,7 @@ function getStyles() {
 
         .ga-copy-btn:hover {
 
-            background: #45a049;
+            background: ##FFCC00;
         }
 
     `;
